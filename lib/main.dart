@@ -5,9 +5,7 @@ import 'package:google_sign_in/google_sign_in.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 class GoogleSignInService {
-  final GoogleSignIn _googleSignIn = GoogleSignIn(
-      clientId:
-          "861666848385-ltu8di0jtv6j8pf9e38000qejopqtedc.apps.googleusercontent.com");
+  final GoogleSignIn _googleSignIn = GoogleSignIn();
 
   Future<GoogleSignInAccount?> signIn() async {
     try {
